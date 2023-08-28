@@ -7,7 +7,9 @@ export default function Navbar() {
       <div className="container mx-auto md:flex-row md:justify-between md:flex md:items-center">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="text-white text-xl font-semibold"><img src='logo.png' className='h-8  md:mb-0'  /></div>
+          <div className="text-white text-xl font-semibold"><img src='logo.png' className='h-8  md:mb-0'  />
+          <button className='lg:hidden md:hidden outline outline-white text-white text-sm'>Explore</button>
+          </div>
         </div>
       </div>
     </nav>
